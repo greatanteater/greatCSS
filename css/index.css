@@ -4,10 +4,14 @@ body {
 }
 
 main {
-    overflow: hidden;
+    background-color: skyblue;
+    width: 100vw;
+    height: 100vh;
 }
 
 main > img {
-    width: 100vw;
-    height: 100vh;
+    display: block;
+    margin: 0 auto;
+    width: cal(100vh * (3508 / 2480));
+    height: 100%;
 }
