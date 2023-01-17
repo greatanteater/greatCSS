@@ -8,14 +8,14 @@
 </head>
 <script>
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        window.location.href = "./m/index.html";
+        console.log("mobile");
     } else {
-        console.log("pc");
+        window.location.href = "../index.html"
     }
 </script>
 <body>
-    <main class="main">
-        <img src="./images/main.png" alt="bonobono" class="img">
+    <main>
+        <img src="./images/main.png" alt="bonobono">
     </main>
 </body>
 <script defer src="./js/index.js"></script>

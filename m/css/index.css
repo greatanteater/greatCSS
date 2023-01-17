@@ -12,6 +12,6 @@ main {
 main > img {
     display: block;
     margin: 0 auto;
-    width: auto;
+    width: cal(100vh * (3508 / 2480));
     height: 100%;
 }
