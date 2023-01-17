@@ -16,6 +16,8 @@ greatSize();
 window.addEventListener("resize", function(){
     if (window.innerHeight < 200) {
         main.style.height = "200px";
+    } else {
+        main.style.height = "100vh";
     }
     greatSize();
 });
