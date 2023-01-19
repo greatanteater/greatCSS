@@ -6,7 +6,7 @@ body {
 main {
     background-color: skyblue;
     width: 100vw;
-    height: 100vh;
+    height:calc(100vh - 65px)
 }
 
 main > img {
@@ -15,3 +15,5 @@ main > img {
     width: auto;
     height: 100%;
 }
+header{height:65px}
+header h1{margin:0}
